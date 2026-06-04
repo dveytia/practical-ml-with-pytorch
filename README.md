@@ -173,6 +173,12 @@ when you are working on multiple projects, and easy to do.
 ```
 python3 -m venv MLvenv
 ```
+In windows cmd (note needs to be python < 3.13, > 3.9)
+```cmd
+py -3.10 -m venv MLvenv
+MLvenv\Scripts\activate.bat
+```
+
 This will create a directory called `MLvenv` containing software for the virtual environment.
 To activate the environment run:
 ```
